@@ -1,0 +1,92 @@
+
+*{
+  box-sizing: border-box;
+  font-family: 'Noto Sans KR', sans-serif;
+}
+#logo{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 15px;
+}
+
+
+#menu{
+  background-color: #1bbc9b;
+  text-align: center;
+  margin-left: 60px;
+  margin-top: 10px;
+  margin-bottom: 60px;
+  width: 398px;
+  border-radius: 5px;
+}
+
+#menu a{
+  margin-left: 10px;
+  margin-right: 10px;
+  font-size: 27px;
+  color: #58595b;
+  text-decoration: none;
+  font-family: Helvetica, Arical, Sans-Serif;
+}
+
+#photo {
+  display: block;
+  margin-top: 100px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+body {
+  margin: 0;
+}
+
+
+.login-form{
+  width: 300px;
+  background-color: #EEEFF1;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  border-radius: 5px;
+  padding: 20px
+
+}
+
+.text-field{
+  margin-bottom: 10px;
+  padding: 10px;
+  width: 100%;
+  border: none;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+.submit-btn{
+  font-size: 14px;
+  background-color: #1bbc9b;
+  color: white;
+  width: 100%;
+  border-radius: 5px;
+  padding: 10px;
+  border: none;
+}
+
+.links {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.links a{
+  font-size: 12px;
+  color: #9B9B9B
+}
+
+.back_img{
+  background-image: url("../images/main.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center top;
+
+}
