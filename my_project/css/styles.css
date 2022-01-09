@@ -7,17 +7,13 @@
   display: block;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 15px;
 }
 
 
 #menu{
-  background-color: #1bbc9b;
-  text-align: center;
+  text-align: right;
   margin-left: 60px;
-  margin-top: 10px;
-  margin-bottom: 60px;
-  width: 398px;
+  margin-top: 13px;
   border-radius: 5px;
 }
 
@@ -92,5 +88,24 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center top;
+}
 
+.link-container{
+  margin-top: 13px;
+  text-align: right;
+}
+
+.link-container a:not(:last-child){
+  margin-right: 5px;
+}
+
+.hero-header {
+  position: relative;
+  height: 23rem;
+  background-position: center center top;
+
+  background-image: url("../images/main.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center top;
 }
